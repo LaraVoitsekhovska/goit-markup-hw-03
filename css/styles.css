@@ -123,7 +123,6 @@ padding-top: 188px;
 padding-right: 457px;
 padding-bottom: 188px;
 padding-left: 457px;
-border-radius: 4px;
 }
 
 .hero-title {
@@ -136,6 +135,8 @@ color: #fff;
 margin-bottom: 32px;
 max-width: 496px;
 margin: 0 auto;
+padding-top: 68px;
+padding-bottom: 68px;
 }
 
 .hero-btn {
@@ -147,6 +148,7 @@ letter-spacing: 0.04em;
 color: #fff;
 background-color: #4D5AE5;
 margin: 0 auto;
+border-radius: 4px;
 }
 
 .hero-btn:hover, .hero-btn:focus{
@@ -156,6 +158,8 @@ background-color: #404BBF;
 
 /** -------advanteges--------- */
 .advantages {
+padding: 120px 156px 120px 156px;
+margin: 0 auto;
 }
 
 .advantages-list {
