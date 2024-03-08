@@ -110,20 +110,13 @@ color: #434455;
 .header-address-link:hover,.header-address-link:focus{
 color: #404bbf;
 }
-
 /* !------------------------- */
 
 /** ---------hero----------- */
 .hero{
-    background:#2e2f42; 
-}
-
-.hero-wrap {
-padding-top: 188px;
-padding-right: 457px;
-padding-bottom: 188px;
-padding-left: 457px;
-margin: 0 auto;
+    background:#2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-title {
@@ -133,11 +126,10 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
-margin-bottom: 32px;
+margin-bottom: 48px;
 max-width: 496px;
-margin: 0 auto;
-padding-top: 68px;
-padding-bottom: 68px;
+margin-right: auto;
+margin-left: auto;
 }
 
 .hero-btn {
@@ -148,6 +140,7 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
 background-color: #4D5AE5;
+display: block;
 margin: 0 auto;
 border-radius: 4px;
 }
@@ -175,6 +168,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 8px;
 }
 
 .advantages-item-text {
@@ -198,13 +192,24 @@ letter-spacing: 0.02em;
 text-align: center;
 text-transform: capitalize;
 color: #2e2f42;
+padding-top: 120px;
+margin: 0 auto;
 }
 
 .team-list {
 }
 
+.team-list-wrap {
+padding: 72px 156px 120px 156px;
+margin:  0 auto;
+}
+
 .team-list-image {
 background-color: #FFFFFF;
+padding-right: 16px;
+padding-left: 16px;
+width: 264px;
+height: 380px;
 }
 
 .team-image-subtitle {
@@ -214,6 +219,8 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+margin-bottom: 8px;
+margin: 0 auto;
 }
 
 .team-list-text {
@@ -222,6 +229,8 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
+margin-bottom: 8px;
+margin: 0 auto;
 }
 
 /*! --------------------- */
@@ -245,6 +254,14 @@ background-color: #FFFFFF
 }
 
 .portfolio-list-image {
+}
+
+.team-image-info{
+padding-top: 32px;
+padding-right: 16px;
+padding-bottom: 32px;
+padding-left: 16px;
+margin: 0 auto;
 }
 
 .portfolio-image-subtitle {
