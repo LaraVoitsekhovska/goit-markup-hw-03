@@ -120,11 +120,10 @@ color: #404bbf;
 
 .hero-wrap {
 padding-top: 188px;
-padding-right: 472px;
+padding-right: 457px;
 padding-bottom: 188px;
-padding-left: 472px; 
-max-width: 496px;
-margin: 0 auto;
+padding-left: 457px;
+border-radius: 4px;
 }
 
 .hero-title {
@@ -134,8 +133,9 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
-max-width: 496px;
-margin: 0 auto; 
+margin-bottom: 32px;
+width: 496px;
+margin: 0 auto;
 }
 
 .hero-btn {
@@ -147,7 +147,6 @@ letter-spacing: 0.04em;
 color: #fff;
 background-color: #4D5AE5;
 margin: 0 auto;
-border-radius: 4px;
 }
 
 .hero-btn:hover, .hero-btn:focus{
