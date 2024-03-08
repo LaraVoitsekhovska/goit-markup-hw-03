@@ -206,10 +206,12 @@ margin:  0 auto;
 
 .team-list-image {
 background-color: #FFFFFF;
-padding-right: 16px;
-padding-left: 16px;
 width: 264px;
 height: 380px;
+}
+
+.team-image-info {
+padding: 32px 16px;
 }
 
 .team-image-subtitle {
@@ -229,7 +231,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
-margin-bottom: 8px;
 margin: 0 auto;
 }
 
