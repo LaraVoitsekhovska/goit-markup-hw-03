@@ -118,6 +118,12 @@ color: #404bbf;
     background:#2e2f42; 
 }
 
+.hero-wrap {
+padding: 188px 472px;
+max-width: 496px;
+margin: 0 auto;
+}
+
 .hero-title {
 font-weight: 700;
 font-size: 56px;
@@ -138,6 +144,7 @@ letter-spacing: 0.04em;
 color: #fff;
 background-color: #4D5AE5;
 margin: 0 auto;
+border-radius: 4px;
 }
 
 .hero-btn:hover, .hero-btn:focus{
