@@ -119,7 +119,10 @@ color: #404bbf;
 }
 
 .hero-wrap {
-padding: 188px 472px;
+padding-top: 188px;
+padding-right: 472px;
+padding-bottom: 188px;
+padding-left: 472px; 
 max-width: 496px;
 margin: 0 auto;
 }
