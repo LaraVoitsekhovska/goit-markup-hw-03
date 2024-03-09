@@ -24,17 +24,17 @@ a {
 text-decoration: none;
 }
 button{
-    cursor: pointer;
-    }
+cursor: pointer;
+}
 
 img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    }
+display: block;
+max-width: 100%;
+height: auto;
+}
 
 address{
-    font-style: normal;
+font-style: normal;
     }
 
 /*! ------------------- */
@@ -42,20 +42,35 @@ address{
 /** -----header------- */
 
 .container { 
-    max-width: 1158px;
-    padding-left: 15px; 
-    padding-right: 15px;
-    margin: 0 auto; 
-    }
-
-.header {
-    padding-top: 24px;
-    padding-bottom: 24px;
+max-width: 1158px;
+padding-left: 15px; 
+padding-right: 15px;
+margin: 0 auto; 
 }
 
+.header {
+padding-top: 24px;
+padding-bottom: 24px;
+}
+
+.header-wrap {
+display: flex;
+}
+
+.header-logo-wrap {
+display: flex;
+}
+
+.header-nav-wrap {
+display: flex;
+}
+
+.header-address-item-wrap {
+display: flex;
+justify-content: flex-end;
+}
 
 .header-navigation {
-
 }
 
 .header-logo {
