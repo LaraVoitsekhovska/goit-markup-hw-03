@@ -173,18 +173,20 @@ background-color: #404BBF;
 
 /** -------advanteges--------- */
 .advantages {
-padding: 120px 156px 120px 156px;
+padding-top: 120px;
+padding-right: 156px;
+padding-bottom: 120px;
+padding-left: 156px;
 margin: 0 auto;
 }
 
 .advantages-list {
 display: flex;
 gap: 24px;
-width: calc((100%-24px*3)/3);
 }
 
 .advantages-item {
-
+width: calc((100% - 24px * 3) / 3);
 }
 
 .advantages-subtitle {
@@ -206,7 +208,7 @@ color: #434455;
 
 /**----------team------------*/
 .team {
-background-color: #F4F4FD
+background-color: #F4F4FD;
 }
 
 .team-title {
@@ -221,29 +223,26 @@ padding-top: 120px;
 margin: 0 auto;
 }
 
-.team-list {
+.team-list-wrap {
 display: flex;
 gap: 24px;
+padding-top: 72px;
+padding-right: 156px;
+padding-bottom: 120px;
+padding-left: 156px;
 }
 
-/* .team-list-wrap {
-padding: 72px 156px 120px 156px;
-margin:  0 auto;
-} */
-
-.team-list-image {
+.team-list-item {
 background-color: #FFFFFF;
-width: 264px;
-height: 380px;
-display: block;
+/* width: 264px;  */
 }
 
-.team-image-info {
+.team-item-info {
 padding: 32px 16px;
 margin: 0 auto;
 }
 
-.team-image-subtitle {
+.team-item-subtitle {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -251,7 +250,6 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 margin-bottom: 8px;
-margin: 0 auto;
 }
 
 .team-list-text {
@@ -260,7 +258,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
-margin: 0 auto;
 }
 
 /*! --------------------- */
@@ -270,7 +267,14 @@ margin: 0 auto;
 }
 
 .portfolio-list-wrap {
-padding: 72px 156px 120px 156px;
+padding-top: 72px;
+padding-right: 156px;
+padding-bottom: 120px;
+padding-left: 156px;
+display: flex;
+width: calc((100% - 24px * 5) / 6);
+gap: 24px;
+column-gap: 48px;
 }
 
 .portfolio-title {
@@ -286,7 +290,7 @@ padding-top: 120px;
 }
 
 .portfolio-list {
-background-color: #FFFFFF
+background-color: #FFFFFF;
 }
 
 .portfolio-list-image {
@@ -312,7 +316,6 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-text-align: left;
 }
 /*! ----------------- */
 
