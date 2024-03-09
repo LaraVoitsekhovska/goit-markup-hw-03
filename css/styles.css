@@ -180,9 +180,11 @@ margin: 0 auto;
 .advantages-list {
 display: flex;
 gap: 24px;
+width: calc((100%-24px*3)/3);
 }
 
 .advantages-item {
+
 }
 
 .advantages-subtitle {
@@ -220,17 +222,20 @@ margin: 0 auto;
 }
 
 .team-list {
+display: flex;
+gap: 24px;
 }
 
-.team-list-wrap {
+/* .team-list-wrap {
 padding: 72px 156px 120px 156px;
 margin:  0 auto;
-}
+} */
 
 .team-list-image {
 background-color: #FFFFFF;
 width: 264px;
 height: 380px;
+display: block;
 }
 
 .team-image-info {
