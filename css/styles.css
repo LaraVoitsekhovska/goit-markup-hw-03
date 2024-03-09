@@ -294,6 +294,8 @@ background-color: #FFFFFF;
 }
 
 .portfolio-list-image {
+width: 360px;
+height: 420px;
 }
 
 .portfolio-image-subtitle {
