@@ -135,9 +135,9 @@ color: #404bbf;
 
 /** ---------hero----------- */
 .hero{
-    background:#2e2f42;
-    padding-top: 188px;
-    padding-bottom: 188px;
+background:#2e2f42;
+padding-top: 188px;
+padding-bottom: 188px;
 }
 
 .hero-title {
@@ -264,17 +264,19 @@ color: #434455;
 
 /** ------portfolio------ */
 .portfolio {
+display: flex;
 }
 
 .portfolio-list-wrap {
+display: flex;
 padding-top: 72px;
 padding-right: 156px;
 padding-bottom: 120px;
 padding-left: 156px;
-display: flex;
-width: calc((100% - 24px * 5) / 6);
-gap: 24px;
+flex-wrap: wrap;
+row-gap: 24px;
 column-gap: 48px;
+width: calc((100%-24px*5)/6);
 }
 
 .portfolio-title {
@@ -294,8 +296,6 @@ background-color: #FFFFFF;
 }
 
 .portfolio-list-image {
-width: 360px;
-height: 420px;
 }
 
 .portfolio-image-subtitle {
@@ -326,11 +326,11 @@ color: #434455;
 background: #2e2f42;
 }
 
-.footer-info {
+.footer-info-wrap {
 padding-top: 100px;
 padding-bottom: 100px;
-padding-left: 56px;
-}
+padding-left: 156px;
+} 
 
 .footer-logo {
 font-family: "Raleway", sans-serif;
@@ -340,6 +340,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
+margin-bottom: 16px;
 }
 
 .footer-logo-white {
