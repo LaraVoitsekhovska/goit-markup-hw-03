@@ -311,7 +311,7 @@ margin-bottom: 72px;
 .portfolio-list-image {
 background: #fff;
 border-bottom: 1px solid #e7e9fc;
-width: calc((100% - 72px) / 3);
+width: calc((100% - 24px*2) / 3);
 }
 
 .portfolio-image-subtitle {
