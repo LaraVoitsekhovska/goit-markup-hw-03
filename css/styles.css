@@ -252,7 +252,6 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .team-item-info {
-/* padding: 32px 16px; */
 margin: 0 auto;
 padding: 32px 0;
 }
@@ -281,7 +280,7 @@ color: #434455;
 .portfolio {
 display: flex;
 margin: 0 auto;
-padding: 120px 0 120px 0
+padding: 120px 0 120px 0;
 }
 
 .container {
